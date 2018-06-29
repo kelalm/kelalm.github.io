@@ -68,7 +68,12 @@ form{
     background: transparent;
     border: none;
     outline: none;
+    border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 15px 180px 15px 17px;
+
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 16px;
@@ -147,32 +152,4 @@ h5{
     display: block;
     line-height: 30px;
     
-}
-
-#box1{
-    background: green;
-    display: block;
-    height: 100px;
-    width: 200px;
-}
-
-#box2{
-    background: yellow;
-    display: block;
-    height: 100px;
-    width: 200px;
-}
-
-#box3{
-    background: blue;
-    display: block;
-    height: 100px;
-    width: 200px;
-}
-
-#box4{
-    background: peru;
-    display: block;
-    height: 100px;
-    width: 200px;
 }
