@@ -119,18 +119,22 @@ h5{
 
 }
 
-.about p {
-    margin: 0 0 0 50px;
-    color: #b8b8b8;
-    -webkit-margin-before: 1em;
+.aboutHighlight{
+    color: #5dc99f;
 }
 
+.about p {
+    margin: 0 0 0 50px;
+}
 
 
 .aboutLine{
     width: 900px;
     height: 1px;
-    background-color:#3a3a3a
+    background-color:#3a3a3a;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
 }
 
 
@@ -142,7 +146,7 @@ h5{
 
 .block h5,
 .block p {
-    display: inline;
+    display: block;
     line-height: 30px;
     
 }
