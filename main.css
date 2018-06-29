@@ -1,0 +1,158 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', 'sans-serif';    
+    background-color: #222222;
+    color: white;
+    
+}
+
+.nav{
+    background-color: #222222  ;
+    color: #ffffff;
+    list-style: none;
+    text-align: left;
+    padding: 20px 0px 0px 40px;
+    float: left;
+    width: 60%;
+
+}
+
+.nav > li{
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: #aaaaaa;
+    
+}
+
+.nav > .active > a {
+    color: aqua;
+}
+
+.nav > li > a:hover{
+    color: #ffffff;
+}
+
+#current a { color: #5dc99f; }
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color:#b6b6b6
+}
+
+footer{
+    font-size: 10px;
+    padding-top: 100px;
+    color: #777777;
+}
+
+#navLogo{
+    font-size: 18px;
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+form .submit{
+    background: #5dc99f;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+form .submit:hover{
+    background-color: #b6b6b6;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+.main {
+    width: 60%;
+    height: 100%;
+    display: inline-block;  
+    float: none;  
+    margin-left: 0;
+}
+
+h5{
+    font-style: italic;
+    color: #777777;
+    font-weight: lighter;
+
+}
+
+.aboutLine{
+    width: 900px;
+    height: 1px;
+    background-color:#3a3a3a
+}
+
+
+
+.block p{
+    padding-left: 50px;
+    text-align: left;
+}
+
+.block h5,
+.block p {
+    display: inline;
+    line-height: 30px;
+    
+}
+
+#box1{
+    background: green;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+
+#box2{
+    background: yellow;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+
+#box3{
+    background: blue;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+
+#box4{
+    background: peru;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
