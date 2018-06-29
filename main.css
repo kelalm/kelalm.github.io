@@ -109,6 +109,24 @@ h5{
 
 }
 
+.about h5 {
+    line-height: 24px;
+    float: left;
+    margin: 0 0 0 -50px;
+    width: 100px;
+    position: absolute;
+    text-align: right;
+
+}
+
+.about p {
+    margin: 0 0 0 50px;
+    color: #b8b8b8;
+    -webkit-margin-before: 1em;
+}
+
+
+
 .aboutLine{
     width: 900px;
     height: 1px;
