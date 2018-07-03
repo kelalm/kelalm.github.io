@@ -116,16 +116,23 @@ ul {
     text-align: center;
     margin-bottom: 20em;
 }
+.skills h2 {
+    padding-bottom: 50px;
+}
 .skills p {
     margin-bottom: 30px;
 }
 .skills img {
     width: 40px;
     margin: 0 15px;
-
 }
 
-
+.programs {
+    float: left;
+}
+.languages {
+    float: right;
+}
 
 /*-------- Work 01 --------*/
 
