@@ -134,6 +134,16 @@ ul {
     float: right;
 }
 
+/*-------- Biography --------*/
+.biography {
+    text-align: center;
+    margin-bottom: 20em;
+}
+.biography h2 {
+    padding-bottom: 50px;
+}
+
+
 /*-------- Work 01 --------*/
 
 .work {
