@@ -27,7 +27,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.blue{
+.red{
     color: #FC5C65
 }
 
@@ -77,7 +77,7 @@ p {
     margin-left: 40px;
 }
 .contactMe a {
-    color: #027BFF;
+    color: #FC5C65;
     text-decoration: none;
 }
 .contactMe img {
@@ -157,7 +157,7 @@ ul {
 }
 .work > .workText > .underline {
     display: block;
-    background-color: #027BFF;
+    background-color: #FC5C65;
     height: 3px;
     width: 61px;
     margin-top: 5px;
@@ -195,7 +195,7 @@ ul {
 }
 .work2 > .workText> .underline {
     display: block;
-    background-color: #027BFF;
+    background-color: #FC5C65;
     height: 3px;
     width: 61px;
     margin-top: 5px;
@@ -238,7 +238,7 @@ ul {
 }
 
 .footer a {
-    color: #027BFF;
+    color: #FC5C65;
     text-decoration: none;
 }
 .underlineSmall {
@@ -246,7 +246,7 @@ ul {
     height: 3px;
     width: 41px;
     margin: 5px auto 0 auto;
-    background-color: #027BFF;
+    background-color: #FC5C65;
 }
 
 
