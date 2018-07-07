@@ -132,7 +132,9 @@ ul {
 }
 .languages {
     float: right;
+    text-align: left;
 }
+
 
 /*-------- Biography --------*/
 .biography {
@@ -224,12 +226,13 @@ ul {
     color: #17191A;
 }
 
+/*-------- Contact Me --------*/
+
 
 
 /*-------- Footer --------*/
 
 .footer {
-    background-image: url(images/Dribbble_Blue_Large.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 320px;
