@@ -67,14 +67,14 @@ p {
     flex: 1;
 }
 .navIcons {
-    text-align: right;
+    text-align: left;
 }
 .navIcons a, .contactMe a, .contactMe img {
     display: inline-block;
     vertical-align: middle;
 }
 .navIcons a {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 .contactMe a {
     color: #FC5C65;
@@ -86,15 +86,13 @@ p {
 
 /*-------- Landing --------*/
 .landing {
-    height: 100vh;
     position: relative;
 }
 .landingWrapper {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
     margin-top: 40px;
-    margin-left: 25%;
 }
 ul {
     list-style: none;
@@ -115,11 +113,12 @@ ul {
 
 /*-------- Skills --------*/
 .skills {
-    text-align: center;
-    margin-bottom: 20em;
+    text-align: left;
+    margin-bottom: 10em;
+
 }
 .skills h2 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .skills p {
     margin-bottom: 30px;
@@ -133,18 +132,18 @@ ul {
     float: left;
 }
 .languages {
-    float: right;
+    float: left;
     text-align: left;
 }
 
 
 /*-------- Biography --------*/
 .biography {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20em;
 }
 .biography h2 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 
