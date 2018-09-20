@@ -79,6 +79,7 @@ p {
 .contactMe a {
     color: #FC5C65;
     text-decoration: none;
+    padding-right: 20px;
 }
 .contactMe img {
     margin-right: 10px;
