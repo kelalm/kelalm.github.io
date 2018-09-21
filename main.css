@@ -67,7 +67,7 @@ p {
     flex: 1;
 }
 .navIcons {
-    text-align: left;
+    text-align: right;
 }
 .navIcons a, .contactMe a, .contactMe img {
     display: inline-block;
