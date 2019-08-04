@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  width: 50%;
+  margin: auto;
+}
+
+p {
+  font-size: 17px;
+  color: #303030;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 40px;
+  color: #1f1f1f;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  color: #1f1f1f;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 30;
+  color: #1f1f1f;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+#topGap {
+  margin-top: 8em;
+}
+
+.clear {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.imageLinks {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.titleLinks {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+i {
+  padding-top: 1em;
+  margin-right: 1em;
+}
+
+.head {
+  margin-top: 5em;
+}
+
+.socials a i {
+  font-size: 20px;
+  color: #1f1f1f;
+}
+
+.infohr {
+  height: 2px;
+  width: 50px;
+  border: 0;
+  background-color: #1f1f1f;
+}
+
+.portfolioStream {
+  height: 36vh;
+  margin-top: 18em;
+  margin-bottom: 5em;
+  max-width: 100%;
+}
+
+.portfolioStream h3 {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.information {
+  float: left;
+  width: 30%;
+}
+
+.bgimage img {
+  float: right;
+}
+
+#lastPSItem {
+  height: 10em;
+}
+
+.overlay {
+  opacity: 1;
+  transition: 0.5s ease;
+  background-color: rgb(221, 70, 70);
+}
+
+.bgimage:hover .overlay {
+  opacity: 0.6;
+}
+
+/* Text hoever effect */
+
+.information:hover .infohr {
+  transition: 0.2s ease;
+  background-color: violet;
+}
+
+.information:hover h1 {
+  color: violet;
+  transition: 0.2s ease;
+}
+
+/* Here I'll start applying CSS to bookable pro */
+
+.wallOfInformation {
+  text-align: center;
+  margin-top: 6em;
+  width: 100%;
+}
+
+.wallOfInformation h1 {
+  text-align: center;
+}
+
+.bookableVideo {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  width: 100%;
+  height: 62vh;
+}
+
+.mainWallInfo {
+  display: inline-block;
+  width: 85%;
+  text-align: left;
+}
+
+.mainWallInfoBook {
+  display: inline-block;
+  width: 85%;
+  text-align: left;
+}
+
+.imagesForWall {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+#bottomSpace {
+  padding-bottom: 5em;
+}
+
+#topEmail {
+  font-size: 17px;
+  color: #303030;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+/* Media Queries Here*/
+
+@media only screen and (max-width: 1900px) {
+  .portfolioStream {
+    height: 25vh;
+  }
+
+  .bookableVideo {
+    height: 49vh;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  body {
+    width: 70%;
+  }
+
+  .portfolioStream {
+    height: 35vh;
+  }
+
+  .bookableVideo {
+    height: 58vh;
+  }
+
+  .mainWallInfoBook {
+    margin-top: 10em;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .bookableVideo {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 80%;
+  }
+
+  .bgimage {
+    float: left;
+  }
+
+  .bgimage img {
+    float: left;
+    width: 100%;
+  }
+
+  .portfolioStream {
+    height: 60vh;
+  }
+
+  .information {
+    margin-top: 5em;
+  }
+
+  .bookableVideo {
+    height: 55vh;
+  }
+
+  .mainWallInfoBook {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .portfolioStream {
+    height: 30vh;
+  }
+
+  .information {
+    width: 80%;
+  }
+
+  .bookableVideo {
+    height: 39vh;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .bookableVideo {
+    height: 30vh;
+  }
+
+  .mainWallInfoBook {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .bookableVideo {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .bookableVideo {
+    height: 20vh;
+  }
+
+  #topGap {
+    margin-top: 2em;
+  }
+
+  .mainWallInfoBook {
+    margin-top: 5em;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .portfolioStream {
+    margin-top: 5em;
+  }
+}
