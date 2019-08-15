@@ -189,6 +189,23 @@ i {
   font-weight: 500;
 }
 
+button {
+  background-color: rgb(221, 70, 70); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
 /* Media Queries Here*/
 
 @media only screen and (max-width: 1900px) {
