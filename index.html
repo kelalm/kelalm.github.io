@@ -1,77 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kelvin Almonte Personal Website." />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" href="./favicon.ico" />
 
     <title>Kelvin Almonte</title>
   </head>
   <body>
-    <div class="content">
-      <h1>Kelvin Almonte</h1>
+    <div class="page">
       <div class="section">
         <nav>
-          <a href="./index.html"
+          <!-- <a href="./index.html"
             ><img
-              class=""
-              src="images/logo.svg"
+              class="logo shadowed"
+              src="images/kalogo.png"
               height="60px"
               alt="Kelvin Almonte Logo"
               draggable="false"
             />
-          </a>
-          <div class="nav-items">
+          </a> -->
+          <h1>Kelvin Almonte</h1>
+          <div class="right-nav-items">
             <a
               href="https://github.com/kelalm"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                class=""
-                src="images/github.svg"
+                class="translucent"
+                src="images/GitHub-Mark-64px.png"
                 height="30px"
-                alt="GitHub Link"
+                alt="GitHub - Social Link"
                 draggable="false"
               />
             </a>
-
           </div>
         </nav>
-        <p class="intro">
-            Hey, I'm Kelvin. I am a Software Engineer based in New York City.
-            Check out some of my work below. I always enjoy learning new things. 😀
+
+        <p class="post-nav-into">
+          Hey, I'm Kelvin. I'm a Software Engineer based in New York City.
+          Technology always excites me and I love to constantly learn new
+          things. Make sure to check out some of my work below! 😄
         </p>
-    </div>
-    <div class="section">
-        <h2>Here are a few technologies I've been working with recently</h2>
+      </div>
+
+      <div class="section">
+        <h2>Technologies <span class="underline"> I enjoy using</span></h2>
+        <h5>Languages</h5>
         <ul>
-            <li>
-                JavaScript
-            </li>
-            <li>
-                React
-            </li>
-            <li>
-                Node.js
-            </li>
-            <li>
-                Next.js
-            </li>
+          <l1>
+            JavaScript - 
+          </l1>
+          <l1>
+            Python - 
+          </l1>
+          <l1>
+            Java -
+          </l1>
+          <l1>
+            C# -
+          </l1>
+          <l1>
+            SQL + NoSQL [MySQL, SQL Server, MongoDB, Firebase, etc.]
+          </l1>
+
+          <h5>Frameworks + Libraries</h5>
+          <ul>
+            <l1>
+              React - 
+            </l1>
+            <l1>
+              Node.js -
+            </l1>
+            <l1>
+              Next.js - 
+            </l1>
+            <l1>
+              ASP.NET MVC -
+            </l1>
+            <l1>
+              jQuery - 
+            </l1>
+            <l1>
+              Bootstrap
+            </l1>
         </ul>
-        
+      </div>
+
+      <div class="section">
+        <h2>Some projects <span class="underline">I've worked on</span></h2>
+
+        <div class="showcase-bubbles row">
+
+          <div class="showcase-bubble-container col-12 col-lg-4">
+            <a
+              href="https://kelvinalmonte.com/budget"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><div class="showcase-bubble shadowed">
+                <img
+                  class="showcase-image"
+                  src="images/budget.png"
+                  alt="Budget Web Application"
+                  draggable="false"
+                />
+                <div class="showcase-info">
+                  <h5>Octostat</h5>
+                  <p>Developed with Next.js, React, and Chart.js. Information is retrieved from the Github API.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="showcase-bubble-container col-12 col-lg-4">
+            <a
+              href="https://kelvinalmonte.com/budget"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><div class="showcase-bubble shadowed">
+                <img
+                  class="showcase-image"
+                  src="images/forecast.png"
+                  alt="Budget Web Application"
+                  draggable="false"
+                />
+                <div class="showcase-info">
+       
+                  <h5>Forecast</h5>
+                  <p>Designed with React + JavaScript.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="showcase-bubble-container col-12 col-lg-4">
+            <a
+              href="https://kelvinalmonte.com/budget"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><div class="showcase-bubble shadowed">
+                <img
+                  class="showcase-image"
+                  src="images/budget.png"
+                  alt="Budget Web Application"
+                  draggable="false"
+                />
+                <div class="showcase-info">
+                  <h5>Budget</h5>
+                  <p>Designed with vanilla JavaScript, HTML and CSS.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="section">
-        <h2>Below are some projects I've developed</h2>
-        
-        
-    </div>
-
-    <div class="section">
-        <h2>Other projects</h2>
-        
-    </div>
+    <!-- Bootstrap, jQuery, Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+      integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
