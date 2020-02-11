@@ -283,12 +283,6 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
-  .personality-section-container {
-    padding: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
 }
 
 @media (min-width: 800px) and (max-width: 999px) {
@@ -296,11 +290,23 @@ p {
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  .showcase-bubble-container {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
   .section {
     padding-left: 180px;
     padding-right: 180px;
+  }
+
+  .showcase-bubble-container {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
