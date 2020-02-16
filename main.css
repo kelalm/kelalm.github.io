@@ -217,6 +217,14 @@ p {
   margin: 0;
 }
 
+.Links > a {
+  display: inline-block;
+  font-size: 0.9em;
+  vertical-align: middle;
+  color: var(--showcase-text);
+  margin-left: 15px;
+}
+
 /*********** Decorations ***********/
 
 .underline {
